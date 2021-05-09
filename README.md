@@ -26,6 +26,9 @@ For the neural network model I selected 2 hidden layers. The first hidden layer 
 The model was not able to reach the target performance of over 75% predictive accuracy. The highest accuracy was 72.51%.
 
 3)What steps did you take to try and increase model performance?
-In the optimization stages I added an extra hidden layer and changed the number of neurons. I also altered the epochs. I played around with different activation functions, but ultimately felt that the relu worked best. 
+In the optimization stages I added an extra hidden layer and changed the number of neurons. I also altered the epochs. I played around with different activation functions, but ultimately felt that the relu worked best for hidden layers. 
 
 ![Optimization](Images/optimization.png)
+
+## Summary
+The deep learning model was able to achieve an accuracy of 72.51% with optimization. To increase accuracy we could have dropped additional columns that would have no effect on the outcome, or choose a better selection of features for the model. Additional attemps at finding the ideal number of hidden layers, neurons, activation functions and features could produce a higher accuracy. 
